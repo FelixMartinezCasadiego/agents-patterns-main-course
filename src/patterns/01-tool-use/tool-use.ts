@@ -15,6 +15,8 @@ async function withoutTools() {
 
     console.log('\n Respuesta: ', text.green);
     console.log('\n Verificar los numeros contra el catalogo de cursos');
+
+    return tracer.summary()
 }
 
 export async function toolUseMain() {
